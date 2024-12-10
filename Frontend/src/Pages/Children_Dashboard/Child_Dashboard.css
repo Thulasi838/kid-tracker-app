@@ -1,0 +1,160 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Soft background color */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full screen height */
+}
+
+/* Dashboard container styling */
+.dashboard {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px; /* Restrict the maximum width */
+}
+
+/* Header styles */
+h1 {
+  font-size: 2.5em;
+  color: #4a90e2; /* Vibrant blue heading */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #4a90e2;
+}
+
+/* Add child button styles */
+.button-link {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.button-link:hover {
+  background-color: #357abd; /* Darker blue on hover */
+}
+
+/* Child form styling */
+.child-form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.child-form label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.child-form input[type="text"],
+.child-form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.child-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.child-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.child-form button:hover {
+  background-color: #357abd;
+}
+
+/* Scrollable child details container */
+.childs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  max-height: 400px; /* Set a max height for scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 10px; /* Optional: Prevent content from being hidden under scroll */
+}
+
+/* Child item styling */
+.child {
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.child h3 {
+  font-size: 1.2em;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.child p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 1em;
+  color: #777;
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #e74c3c; /* Red color */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .child {
+    width: calc(100% - 40px); /* Adjust child item width for smaller screens */
+  }
+}

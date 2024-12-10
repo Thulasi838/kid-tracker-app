@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.app-name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Home Container */
+.home-container {
+  width: 100vw;
+  margin: 0; /* Remove default body margin */
+  padding: 0;
+}
+
+/* Home Content */
+.home-content {
+  width: 100%; /* Full width */
+  text-align: center;
+  padding: 20px 10px; /* Add some padding for spacing */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin: 0; /* Remove default margin */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+  height:100%;
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+/* Button Styles */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Add spacing between buttons */
+  margin-top: 20px;
+
+}
+
+.login-button,
+.signup-button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+.kids-image {
+  width: 100%;
+  max-width: 600px; /* Optional, to limit the size */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto;
+  display: block; /* Center the image */
+}
+
